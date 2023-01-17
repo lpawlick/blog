@@ -1,0 +1,97 @@
+/* Small header image on top */
+.md-header
+{
+    background-image: url("images/misc/top_header.jpg");
+    background-size: cover;
+}
+
+/* Hide tabs because we don't need them yet */
+.md-tabs
+{
+    display: none;
+}
+
+/* Hide the drawer image when the drawer isn't visible */
+.md-nav__title--site
+{
+    background-image: none;
+}
+
+/* Small header image for the drawer menu on mobile */
+@media only screen and (max-width:76.1875em)
+{
+    .md-nav__title--site
+    {
+        background-image: url("images/misc/drawer_header.jpg");
+        background-size: cover;
+    }
+}
+
+/* Hide title option due to it being broken without the localtoc option */
+.md-nav__link--active
+{
+    display: none !important;
+}
+
+/* Light mode */
+@media (prefers-color-scheme: light) 
+{
+    body 
+    {
+        background-color: #FAFAFA;
+        color: black;
+    }
+    h1 
+    {
+        background-color: #FAFAFA !important;
+        color: #303030 !important;
+    }
+}
+
+/* Make Fontawesome icons light on dark theme */
+body.dark-theme .fa 
+{
+    color: white;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) 
+{
+    body 
+    {
+        background-color: #303030;
+        color: white;
+    }
+    /* Darken img on dark mode */
+    img 
+    {
+        filter: brightness(.8) contrast(1.2);
+    }
+    /* Blog title */
+    h1 
+    {
+        background-color: #303030 !important;
+        color: #FAFAFA !important;
+    }
+    /* Darken mobile sidemenu */
+    .md-nav__list
+    {
+        background-color: #303030 !important;
+    }
+    .md-nav__link
+    {
+        background-color: #303030 !important;
+        color: #FAFAFA !important;
+    }
+    /* Darken search menusmobile sidemenu */
+    .md-search__scrollwrap
+    {
+        background-color: #303030 !important;
+        color: #FAFAFA !important;
+    }
+    .md-search__input
+    {
+        background-color: #303030 !important;
+        color: #FAFAFA !important;
+    }
+}
