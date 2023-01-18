@@ -287,7 +287,8 @@ html_theme_options = {
     'color_accent' : 'red',
     #'html_minify' : True,
     'css_minify' : True,
-    #'logo_icon' : ''
+    #'logo_icon' : '',
+    'microanalytics_account' : 'ZwSg9rf6GA',
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
