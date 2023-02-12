@@ -13,7 +13,7 @@ Creating an extension for the stable diffusion webui
 
 .. image:: ../images/webui_notes_extension_hero.jpg
    :width: 1920
-   :alt: Alternative text
+   :alt: A photo of a robot sitting in front of a computer monitor taking notes, next to a keyboard and a robot toy on a desk with two plants in the background
 
 The `stable diffusion webui <https://github.com/AUTOMATIC1111/stable-diffusion-webui>`_ is a gradio interface for `stable diffusion <https://stability.ai/blog/stable-diffusion-announcement>`_, 
 supporting both versions 1 and 2. It sticks out through its extendability, in form of third-party scripts or extensions which can influence or completely change the functionality of the webui. 
