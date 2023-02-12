@@ -510,4 +510,4 @@ Links
 ------
 
 - `AUTOMATIC1111 stable-diffusion-webui <https://github.com/AUTOMATIC1111/stable-diffusion-webui>`_ (Commit `ea9bd9fc7409109adcd61b897abc2c8881161256 <https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/ea9bd9fc7409109adcd61b897abc2c8881161256>`_ at the time of writing)
-- `Model notes extension <https://github.com/lpawlick/sd-webui-model-notes>_`
+- `Model notes extension <https://github.com/lpawlick/sd-webui-model-notes>`_
